@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Test_Project</string>
+    <string name="action_settings">Settings</string>
+    <string-array name = "songs_link">
+        <item>https://www.youtube.com/watch?v=-nP-3qEz83Y&amp;index=2&amp;list=PLajFuLk12ldMvbpCQ8PV0Ksqi3yy-EHqt</item>
+        <item>https://www.youtube.com/watch?v=syNLBJ_Lq9E</item>
+        <item>https://www.youtube.com/watch?v=FQ9VPTTGbJ0</item>item>
+        <item>https://www.youtube.com/watch?v=mgIbPzGNhIM</item>
+        <item>https://www.youtube.com/watch?v=uXvl1_IgGmI</item>
+        <item>https://www.youtube.com/watch?v=SmM0653YvXU</item>
+        <item>https://www.youtube.com/watch?v=pRpeEdMmmQ0</item>
+    </string-array>
+
+    <string-array name = "songs_title">
+        <item>We Can Work it Out</item>
+        <item>Like a Rolling Stone</item>
+        <item>Let it be 2</item>
+        <item>Here Comes The Sun</item>
+        <item>Skyfall</item>
+        <item>Rain Over Me</item>
+        <item>Waka Waka</item>
+    </string-array>
+
+    <string-array name = "artist">
+        <item>Paul McCartney</item>
+        <item>Bob Dylan</item>
+        <item>Geroge Harrison</item>
+        <item>The Beatles</item>
+        <item>Adele</item>
+        <item>Pitbull</item>
+        <item>Shakira</item>
+    </string-array>
+
+    <string-array name = "songs_wiki_links">
+        <item>https://en.wikipedia.org/wiki/We_Can_Work_It_Out</item>
+        <item>https://en.wikipedia.org/wiki/Like_a_Rolling_Stone</item>
+        <item>https://en.wikipedia.org/wiki/Here_Comes_the_Sun</item>
+        <item>https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps</item>
+        <item>https://en.wikipedia.org/wiki/Skyfall_(song)</item>
+        <item>https://en.wikipedia.org/wiki/Rain_Over_Me</item>
+        <item>https://en.wikipedia.org/wiki/Waka_Waka_(This_Time_for_Africa)</item>
+
+    </string-array>
+
+    <string-array name = "artist_wiki_links">
+        <item>https://en.wikipedia.org/wiki/Paul_McCartney</item>
+        <item>https://en.wikipedia.org/wiki/Bob_Dylan</item>
+        <item>https://en.wikipedia.org/wiki/George_Harrison</item>
+        <item>https://en.wikipedia.org/wiki/The_Beatles</item>
+        <item>https://en.wikipedia.org/wiki/Adele</item>
+        <item>https://en.wikipedia.org/wiki/Pitbull_(rapper)</item>
+        <item>https://en.wikipedia.org/wiki/Shakira</item>
+    </string-array>
+
+</resources>
