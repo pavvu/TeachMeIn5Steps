@@ -41,6 +41,9 @@ class object
     }
 }
 
+
+
+
 // implementing a adapter by extending from baseadapter
 
 class adapter extends BaseAdapter
@@ -54,8 +57,8 @@ class adapter extends BaseAdapter
         con = c;
         String[] titles = r.getStringArray(R.array.songs_title);
         String[] artists = r.getStringArray(R.array.artist);
-        int[]    imageids = {R.drawable.paul, R.drawable.dylan, R.drawable.george,
-                             R.drawable.beatles, R.drawable.adele, R.drawable.pitbull,R.drawable.shakira };
+        int[]    imageids = {R.drawable.guitar, R.drawable.head, R.drawable.fret,
+                             R.drawable.chords, R.drawable.fourchords };
         for(int i=0; i<titles.length; i++)
         {
             object o = new object(titles[i],artists[i], imageids[i] );
@@ -117,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
         //sreading artist, song wiki links
         artist_wiki_links = this.getResources().getStringArray(R.array.artist_wiki_links);
-        song_wiki_links = this.getResources().getStringArray(R.array.songs_wiki_links);
+        song_wiki_links = this.getResources().getStringArray(R.array.Theory);
         song_link = this.getResources().getStringArray(R.array.songs_link);
         // creating the view
         ListView lv = (ListView) findViewById(R.id.listView);
@@ -193,12 +196,12 @@ public class MainActivity extends AppCompatActivity {
                 i.setData(u);
                 startActivity(i);
                 return true;
-            case R.id.artist_wiki:
-                link = artist_wiki_links[position] ;
-                u = Uri.parse(link);
-                i.setData(u);
-                startActivity(i);
-                return true;
+            //case R.id.artist_wiki:
+              //  link = artist_wiki_links[position] ;
+               // u = Uri.parse(link);
+                //i.setData(u);
+                //startActivity(i);
+                //return true;
             case R.id.song_link:
                 link = song_link[position] ;
                 u = Uri.parse(link);
@@ -228,6 +231,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
 
         return super.onOptionsItemSelected(item);
     }
